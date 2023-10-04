@@ -1,2 +1,6 @@
 project/db-data
 ./project/db-data
+project/caddy_data
+project/caddy_config
+./project/caddy_data
+./project/caddy_config
