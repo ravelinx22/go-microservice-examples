@@ -115,7 +115,7 @@
                 method: 'POST',
             }
 
-            fetch({{print .BrokerURL}}, body)
+            fetch({{print .BrokerURL ""}}, body)
             .then((response) => response.json())
             .then((data) => {
                 sent.innerHTM = "empty post request";
